@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - localInner1",
+            "request": "launch",
+            "mainClass": "com.kgisl.ar2arlist.localInner1",
+            "projectName": "ar2arlist"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestNestedInterface1",
+            "request": "launch",
+            "mainClass": "com.kgisl.ar2arlist.TestNestedInterface1",
+            "projectName": "ar2arlist"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - rev",
+            "request": "launch",
+            "mainClass": "com.kgisl.ar2arlist.rev",
+            "projectName": "ar2arlist"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - task1a",
+            "request": "launch",
+            "mainClass": "com.kgisl.ar2arlist.task1a",
+            "projectName": "ar2arlist"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lemda1",
+            "request": "launch",
+            "mainClass": "com.kgisl.ar2arlist.Lemda1",
+            "projectName": "ar2arlist"
+        }
+    ]
+}

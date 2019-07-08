@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <script src="country.js"></script>
+</head>
+
+<body onload="app.FetchAll()">
+  <form action="javascript:void(0);" method="POST" onsubmit="app.Add()">
+      <input type="text" id="countryName" placeholder="New country">
+      <input type="submit" id="submit" value="Add">
+  </form>
+  <!-- <div id="countriesList"></div> -->
+  <table>
+          <tr>
+            <th>Name</th>
+          </tr>
+            <tbody id="countriesList">
+            </tbody>
+        </table>
+
+</body>
+
+</html>

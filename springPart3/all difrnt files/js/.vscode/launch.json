@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Calculation",
+            "request": "launch",
+            "mainClass": "com.kgisl.jsone.Calculation",
+            "projectName": "jsone"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Innerex",
+            "request": "launch",
+            "mainClass": "com.kgisl.jsone.Innerex",
+            "projectName": "jsone"
+        }
+    ]
+}

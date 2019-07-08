@@ -1,0 +1,34 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <context-param>
+    <param-name>user_name</param-name>
+    <param-value>Welcome to SpLessons</param-value>
+  </context-param>
+  <servlet>
+    <servlet-name>DemoServletContext</servlet-name>
+    <servlet-class>Servlet1</servlet-class>
+    <init-param>
+      <param-name>splesson</param-name>
+      <param-value>Hey man stop thinking start coding</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DemoServletContext</servlet-name>
+    <url-pattern>/doservlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DemoServletConfig</servlet-name>
+    <servlet-class>Servlet2</servlet-class>
+    <init-param>
+      <param-name>splesson2</param-name>
+      <param-value>Hey man start coding</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DemoServletConfig</servlet-name>
+    <url-pattern>/goservlet</url-pattern>
+  </servlet-mapping>
+</web-app>
+  

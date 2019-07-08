@@ -1,0 +1,74 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Input",
+            "request": "launch",
+            "mainClass": "com.memorynotfound.controller.Input",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - output",
+            "request": "launch",
+            "mainClass": "com.memorynotfound.controller.output",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A",
+            "request": "launch",
+            "mainClass": "com.memorynotfound.controller.A",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Example",
+            "request": "launch",
+            "mainClass": "com.memorynotfound.controller.Example",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FinalizeExample",
+            "request": "launch",
+            "mainClass": "com.memorynotfound.controller.FinalizeExample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestAnonymousInner",
+            "request": "launch",
+            "mainClass": "com.memorynotfound.controller.TestAnonymousInner",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestMemberOuter1",
+            "request": "launch",
+            "mainClass": "com.memorynotfound.controller.TestMemberOuter1",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Send",
+            "request": "launch",
+            "mainClass": "com.memorynotfound.controller.Send",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A6",
+            "request": "launch",
+            "mainClass": "com.memorynotfound.controller.A6",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - exmple",
+            "request": "launch",
+            "mainClass": "com.memorynotfound.controller.exmple",
+            "projectName": "demo"
+        }
+    ]
+}
